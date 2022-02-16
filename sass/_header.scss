@@ -1,0 +1,114 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.text-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+  margin: 0 auto;
+}
+.link-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #000000;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+.header-list {
+  display: flex;
+  padding-left: 93px;
+
+  padding-right: 100px;
+  margin: 0 auto;
+}
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.header-item + .header-item {
+  margin-left: 50px;
+}
+
+.header-list-contact {
+  display: flex;
+  margin-left: auto;
+}
+.header-item-contacts {
+  height: 16px;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--link-color);
+}
+
+.current {
+  position: relative;
+  color: var(--link-color);
+}
+
+.current::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0px;
+  border-radius: 2px;
+  bottom: -1px;
+  background-color: var(--link-color);
+}
+
+.header-link-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--title-color-text);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-letter {
+  margin-right: 10px;
+  fill: var(--title-color-text);
+}
+.icon-letter {
+  fill: currentColor;
+}
+
+.header-link-contacts:hover,
+.header-link-contacts:focus {
+  color: var(--link-color);
+}
+
+.icon-smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}
