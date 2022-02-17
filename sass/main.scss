@@ -1,10 +1,16 @@
-@import './header';
-@import './hiro_s';
-@import './advantages';
-@import './do';
-@import './team';
-@import './partners';
-@import './hiro_p';
-@import './project_p';
-@import './footer';
-@import './modal';
+@import './utils/vars';
+@import './base/reset';
+@import './base/common';
+@import './components/conteiner';
+@import './utils/hidden';
+
+@import './layout/header';
+@import './layout/hiro_s';
+@import './layout/advantages';
+@import './layout/do';
+@import './layout/team';
+@import './layout/partners';
+@import './layout/hiro_p';
+@import './layout/project_p';
+@import './layout/footer';
+@import './layout/modal';
