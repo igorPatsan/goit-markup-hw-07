@@ -24,8 +24,6 @@
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.team-item:nth-child(4n) {
-}
 .team-lines {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -78,15 +76,15 @@
   fill: #afb1b8;
   /* transition: background-color var(--link-color); */
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--link-color);
+    fill: var(--main-white-color);
+  }
 }
 .social-links-icon {
   width: 20px;
   height: 20px;
   /* fill: currentColor; */
   /* fill: #afb1b8; */
-}
-.links:hover,
-.links:focus {
-  background-color: var(--link-color);
-  fill: var(--main-white-color);
 }

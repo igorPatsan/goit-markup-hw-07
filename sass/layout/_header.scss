@@ -62,10 +62,10 @@
   padding-top: 32px;
   padding-bottom: 32px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link:hover,
-.header-link:focus {
-  color: var(--link-color);
+  &:hover,
+  &:focus {
+    color: var(--link-color);
+  }
 }
 
 .current {
@@ -93,6 +93,10 @@
   padding-top: 32px;
   padding-bottom: 32px;
   transition: 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--link-color);
+  }
 }
 
 .icon-letter {
@@ -101,11 +105,6 @@
 }
 .icon-letter {
   fill: currentColor;
-}
-
-.header-link-contacts:hover,
-.header-link-contacts:focus {
-  color: var(--link-color);
 }
 
 .icon-smartphone {
