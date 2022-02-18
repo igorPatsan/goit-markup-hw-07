@@ -24,8 +24,10 @@
 .footer-address {
   padding-top: 17px;
 }
-.footer-item + .footer-item {
-  margin-top: 9px;
+.footer-item {
+  & + & {
+    margin-top: 9px;
+  }
 }
 
 .footer-text {

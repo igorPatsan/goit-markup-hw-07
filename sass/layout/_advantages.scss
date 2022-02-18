@@ -8,10 +8,11 @@
 .advantages-item {
   width: calc((100% - 120px) / 4);
   margin-right: 30px;
+  &:nth-child(4n) {
+    margin-right: 0px;
+  }
 }
-.advantages-item:nth-child(4n) {
-  margin-right: 0px;
-}
+
 .advantages-icon {
   display: flex;
   justify-content: center;

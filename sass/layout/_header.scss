@@ -38,19 +38,19 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.header-item + .header-item {
-  margin-left: 50px;
+  & + & {
+    margin-left: 50px;
+  }
+  &-contacts {
+    height: 16px;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
 }
 
 .header-list-contact {
   display: flex;
   margin-left: auto;
-}
-.header-item-contacts {
-  height: 16px;
-  justify-content: space-between;
-  padding-left: 30px;
 }
 
 .header-link {
@@ -71,17 +71,16 @@
 .current {
   position: relative;
   color: var(--link-color);
-}
-
-.current::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  left: 0px;
-  border-radius: 2px;
-  bottom: -1px;
-  background-color: var(--link-color);
+  &::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    border-radius: 2px;
+    bottom: -1px;
+    background-color: var(--link-color);
+  }
 }
 
 .header-link-contacts {
@@ -99,12 +98,13 @@
   }
 }
 
+
 .icon-letter {
   margin-right: 10px;
   fill: var(--title-color-text);
-}
-.icon-letter {
+  & {
   fill: currentColor;
+}
 }
 
 .icon-smartphone {

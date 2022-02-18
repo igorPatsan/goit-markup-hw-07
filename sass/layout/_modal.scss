@@ -83,11 +83,12 @@
   cursor: pointer;
   position: relative;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: var(--link-color);
+  }
 }
-.modal-input-wrap:hover,
-.modal-input-wrap:focus {
-  fill: var(--link-color);
-}
+
 .modal-input {
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -129,15 +130,15 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
-}
-.modal-check-text::before {
-  content: '';
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--first-title-color);
-  border-radius: 2px;
-  display: block;
-  margin-right: 7px;
+  &::before {
+    content: '';
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--first-title-color);
+    border-radius: 2px;
+    display: block;
+    margin-right: 7px;
+  }
 }
 
 .modal-check:checked + .modal-check-text::before {

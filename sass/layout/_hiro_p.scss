@@ -12,9 +12,9 @@
 .hiro-p-item {
   display: inline-block;
   margin-right: 8px;
-}
-.hiro-p-item:nth-child(5n) {
+  &:nth-child(5n) {
   margin: 0px;
+}
 }
 .hiro-p-button {
   font-family: Roboto;
