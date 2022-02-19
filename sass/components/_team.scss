@@ -13,8 +13,7 @@
   margin-bottom: 50px;
 }
 .team-list {
-  display: flex;
-  justify-content: center;
+  @extend %justify-cont;
   margin-right: -30px;
 }
 .team-item {
@@ -61,8 +60,7 @@
 }
 
 .social-links-item {
-  display: flex;
-  justify-content: center;
+  @extend %justify-cont;
 }
 
 .links {

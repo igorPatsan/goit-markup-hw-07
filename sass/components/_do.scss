@@ -12,8 +12,7 @@
   margin-bottom: 50px;
 }
 .do-list {
-  display: flex;
-  justify-content: center;
+  @extend %justify-cont;
   margin-right: -30px;
 }
 .do-item {

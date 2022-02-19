@@ -2,8 +2,7 @@
   padding-top: 94px;
 }
 .advantages-list {
-  display: flex;
-  justify-content: center;
+  @extend %justify-cont;
 }
 .advantages-item {
   width: calc((100% - 120px) / 4);

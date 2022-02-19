@@ -80,8 +80,7 @@
 }
 
 .footerlinks {
-  display: flex;
-  justify-content: center;
+  @extend %justify-cont;
   align-items: center;
   border-radius: 50%;
   width: 44px;
