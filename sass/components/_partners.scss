@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.partners-title {
+.partners__title {
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -15,12 +15,12 @@
   @extend %justify-cont;
   margin-right: -30px;
 }
-.partners-item {
+.partners-list__item {
   width: calc((100% - 180px) / 6);
   margin-right: 30px;
 }
 
-.partners-link {
+.partners-list__link {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@
   }
 }
 
-.logotip-icon {
+.partners-list__icon {
   width: 160px;
   height: 60px;
 }

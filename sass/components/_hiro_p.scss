@@ -2,20 +2,20 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.btn-conteiner {
+.btn__conteiner {
   margin-bottom: 50px;
 }
-.hiro-p-list {
+.hirop-list {
   @extend %justify-cont;
 }
-.hiro-p-item {
+.hirop-list__item {
   display: inline-block;
   margin-right: 8px;
   &:nth-child(5n) {
     margin: 0px;
   }
 }
-.hiro-p-button {
+.hirop-list__button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;

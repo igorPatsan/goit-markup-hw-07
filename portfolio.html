@@ -13,28 +13,28 @@
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
     <!--Заголовок-->
     <header class="header">
-        <div class="conteiner header-conteiner">
+        <div class="conteiner header__conteiner">
             <nav class="navigation">
-                <a class="link-logo" href=""> <span class="text-web">Web</span>Studio </a>
-                <ul class="header-list">
-                    <li class="header-item"><a class="header-link " href="index.html"> Студия </a> </li>
-                    <li class="header-item"><a class="header-link current" href="portfolio.html"> Портфолио</a></li>
-                    <li class="header-item"><a class="header-link" href=""> Контакты</a></li>
+                <a class="logo-link logo-link--dark-theme" href=""> <span class="text-web">Web</span>Studio </a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a class="nav-list__link" href="index.html"> Студия </a> </li>
+                    <li class="nav-list__item"><a class="nav-list__link current" href="portfolio.html"> Портфолио</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href=""> Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="header-list-contact">
-                <li class="header-item-contacts"><a class="header-link-contacts" href="mailto:info@devstudio.com ">
+            <ul class="header-contact">
+                <li class="header-contact__item"><a class="header-contact__link" href="mailto:info@devstudio.com ">
                         <svg class="icon-letter" width="16" height="16">
                             <use href="images/icons.svg#icon-envelope-1"></use>
                         </svg>
                         info@devstudio.com </a></li>
-                <li class="header-item-contacts"><a class="header-link-contacts" href="tel:+380961111111"><svg
-                            class="icon-smartphone" width="16" height="16">
+                <li class="header-contact__item "><a class="header-contact__link" href="tel:+380961111111">
+                        <svg class="icon-smartphone" width="16" height="16">
                             <use href="images/icons.svg#icon-smartphone-1"></use>
                         </svg> +38 096 111 11 11</a>
                 </li>
@@ -46,13 +46,13 @@
         <!--HIRO-->
         <section class="hiro-p">
             <h1 class="visually-hidden" >портфолио</h1>
-            <div class="conteiner btn-conteiner">
-            <ul class="hiro-p-list">
-                <li class="hiro-p-item"><button class="hiro-p-button" type="button">Все</button></li>
-                <li class="hiro-p-item"><button class="hiro-p-button" type="button">Веб-сайты</button></li>
-                <li class="hiro-p-item"><button class="hiro-p-button" type="button">Приложения</button></li>
-                <li class="hiro-p-item"><button class="hiro-p-button" type="button">Дизайн</button></li>
-                <li class="hiro-p-item"><button class="hiro-p-button" type="button">Маркетинг</button></li>
+            <div class="conteiner btn__conteiner">
+            <ul class="hirop-list">
+                <li class="hirop-list__item"><button class="hirop-list__button" type="button">Все</button></li>
+                <li class="hirop-list__item"><button class="hirop-list__button" type="button">Веб-сайты</button></li>
+                <li class="hirop-list__item"><button class="hirop-list__button" type="button">Приложения</button></li>
+                <li class="hirop-list__item"><button class="hirop-list__button" type="button">Дизайн</button></li>
+                <li class="hirop-list__item"><button class="hirop-list__button" type="button">Маркетинг</button></li>
             </ul>
             </div>
             <h2 class="visually-hidden">проекты</h2>
@@ -173,59 +173,59 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <div class="conteiner footer-conteiner">
+        <div class="conteiner footer__conteiner">
             <div class="foofer-first-div">
-                <a class="footer-logo-link" href=""> <span class="web-text">Web</span>Studio </a>
+                <a class="logo-link logo-link--light-theme" href=""> <span class="web-text">Web</span>Studio </a>
                 <address class="footer-address">
                     <ul class="footter-list">
-                        <li class="footer-item">
-                            <p class="footer-text"> г. Киев, пр-т Леси Украинки, 26 </p>
-                        <li class="footer-item"> <a class="footer-link-contact" href="mailto:info@example.com ">
+                        <li class="footter-list__item">
+                            <p class="footter-list__text"> г. Киев, пр-т Леси Украинки, 26 </p>
+                        <li class="footter-list__item"> <a class="footter-list__contact" href="mailto:info@example.com ">
                                 info@example.com </a></li>
-                        <li class="footer-item"> <a class="footer-link-contact" href="tel:+380991111111 "> +38 099 111 11
-                                11</a> </li>
+                        <li class="footter-list__item"> <a class="footter-list__contact" href="tel:+380991111111 "> +38 099
+                                111 11 11</a> </li>
                     </ul>
                 </address>
             </div>
-            <div class="footer-social-link">
-                <p class=" footer-text-last">присоединяйтесь</p>
-                <ul class="footer-soc-links">
-                    <li class="footer-soc-links-item">
-                        <a class="footerlinks" href="">
-                            <svg class="footersoc-links-icon">
+            <div class="footter-list__social-link">
+                <p class=" footter-list__text-last">присоединяйтесь</p>
+                <ul class="footter-list__soc-links">
+                    <li class="footter-list__links-item">
+                        <a class="footter-list__footerlinks" href="">
+                            <svg class="footter-list__links-icon">
                                 <use href="images/icons.svg#icon-instagram-2-1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-soc-links-item">
-                        <a class="footerlinks" href="">
-                            <svg class="footersoc-links-icon">
+                    <li class="footter-list__links-item">
+                        <a class="footter-list__footerlinks" href="">
+                            <svg class="footter-list__links-icon">
                                 <use href="images/icons.svg#icon-twitter-1-1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-soc-links-item">
-                        <a class="footerlinks" href="">
-                            <svg class="footersoc-links-icon">
+                    <li class="footter-list__links-item">
+                        <a class="footter-list__footerlinks" href="">
+                            <svg class="footter-list__links-icon">
                                 <use href="images/icons.svg#icon-facebook-1-1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-soc-links-item">
-                        <a class="footerlinks" href="">
-                            <svg class="footersoc-links-icon">
+                    <li class="footter-list__links-item">
+                        <a class="footter-list__footerlinks" href="">
+                            <svg class="footter-list__links-icon">
                                 <use href="images/icons.svg#icon-linkedin-1-1"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="footer-form-cont">
-                <p class="footer-form-text">Подпишитесь на рассылку</p>
-                <div class="footer-form-send">
+            <div class="footter-list__form-cont">
+                <p class="footter-list__form-text">Подпишитесь на рассылку</p>
+                <div class="footter-list__form-send">
                     <input type="email" class="footer-input" name="user-mail" id="user-mail" placeholder="E-mail" />
-                    <button class="footer-button">Подписаться
-                        <svg class="footersoc-send-icon">
+                    <button class="footter-list__button">Подписаться
+                        <svg class="footter-list__send-icon">
                             <use href="images/icons.svg#icon-icon-send-1"></use>
                         </svg>
                     </button>

@@ -6,31 +6,30 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer__conteiner {
+  /* align-items: center; */
+  display: flex;
+  align-items: baseline;
+}
+
 .foofer-first-div {
   flex-grow: 1;
-}
-.footer-logo-link {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: var(--main-white-color);
   display: inline-block;
 }
+
 .web-text {
   color: var(--link-color);
 }
 .footer-address {
   padding-top: 17px;
 }
-.footer-item {
+.footter-list__item {
   & + & {
     margin-top: 9px;
   }
 }
 
-.footer-text {
+.footter-list__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -39,7 +38,7 @@
   letter-spacing: 0.03em;
   color: var(--main-white-color);
 }
-.footer-link-contact {
+.footter-list__contact {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -55,11 +54,11 @@
   }
 }
 
-.footer-social-link {
+.footter-list__social-link {
   padding-top: 12px;
   margin-left: 70px;
 }
-.footer-text-last {
+.footter-list__text-last {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -69,7 +68,7 @@
   text-transform: uppercase;
   color: var(--main-white-color);
 }
-.footer-soc-links {
+.footter-list__soc-links {
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -79,7 +78,7 @@
   height: 44px;
 }
 
-.footerlinks {
+.footter-list__footerlinks {
   @extend %justify-cont;
   align-items: center;
   border-radius: 50%;
@@ -96,15 +95,15 @@
   }
 }
 
-.footersoc-links-icon {
+.footter-list__links-icon {
   width: 20px;
   height: 20px;
   fill: var(--main-white-color);
 }
-.footer-form-cont {
+.footter-list__form-cont {
   margin-left: 94px;
 }
-.footer-form-text {
+.footter-list__form-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -114,7 +113,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.footer-form-send {
+.footter-list__form-send {
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -130,7 +129,7 @@
   color: #ffffff99;
   background-color: transparent;
 }
-.footer-button {
+.footter-list__button {
   width: 200px;
   height: 50px;
   color: var(--main-white-color);
@@ -151,7 +150,7 @@
   cursor: pointer;
   border: none;
 }
-.footersoc-send-icon {
+.footter-list__send-icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;
